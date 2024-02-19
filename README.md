@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # hewppt
 # hew_ppt_site
 # hew_ppt_site
+# hewsite
