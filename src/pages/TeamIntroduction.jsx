@@ -7,7 +7,7 @@ const TeamIntroduction = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* 섹션들 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/haru.png" alt="haru" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/haru.png" alt="haru" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
             <p className="text-center">
               宇野 ハル
@@ -24,7 +24,7 @@ const TeamIntroduction = () => {
         </div>
         {/* 섹션 2 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/sewon.png" alt="sewon" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/sewon.png" alt="sewon" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
             <p className="text-center">
               パク セウォン
@@ -41,7 +41,7 @@ const TeamIntroduction = () => {
         </div>
         {/* 섹션 3 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/kamo.png" alt="kamo" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/kamo.png" alt="kamo" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
           <p className="text-center">
             加茂 遥音
@@ -57,7 +57,7 @@ const TeamIntroduction = () => {
         </div>
         {/* 섹션 4 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/tokasiki.png" alt="tokasiki" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/tokasiki.png" alt="tokasiki" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
             <p className="text-center">
             渡嘉敷 星矢
@@ -73,7 +73,7 @@ const TeamIntroduction = () => {
         </div>
         {/* 섹션 5 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/shintaro.png" alt="shintaro" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/shintaro.png" alt="shintaro" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
           <p className="text-center">
           高橋 伸太朗
@@ -90,7 +90,7 @@ const TeamIntroduction = () => {
         </div>
         {/* 섹션 6 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/urukun.png" alt="urukun" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/urukun.png" alt="urukun" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
           <p className="text-center">
           WURIGENG
@@ -108,7 +108,7 @@ const TeamIntroduction = () => {
         </div>
         {/* 섹션 7 */}
         <div className="flex flex-col items-center">
-          <img src="../src/assets/images/toda.png" alt="toda" className="rounded-full shadow-lg mb-3" />
+          <img src="./assets/images/toda.png" alt="toda" className="rounded-full shadow-lg mb-3" />
           <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-xs">
           <p className="text-center">
           戸田 康介

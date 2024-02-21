@@ -27,13 +27,13 @@ const Header = () => {
     <header className="z-50 bg-white shadow-md">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
         <div className="flex items-center">
-          <Link to="/" className="text-xl">Living Hub</Link>
+          <Link to="/" className="text-xl font-semibold">Living Hub</Link>
         </div>
 
         <div>
           <button
             type="button"
-            className="text-gray-500 hover:text-gray-600"
+            className="text-gray-500 hover:text-gray-600 focus:outline-none"
             onClick={toggleMenu}
           >
             {isMenuOpen ? (
@@ -49,7 +49,7 @@ const Header = () => {
         </div>
 
         {isMenuOpen && (
-          <ul ref={menuRef} className="z-50 absolute top-14 right-0 bg-white shadow-md py-2 w-full sm:relative sm:w-auto sm:flex">
+          <ul ref={menuRef} className="z-50 absolute top-14 right-0 bg-white shadow-md py-2 w-full sm:relative sm:w-auto sm:flex sm:space-x-4">
             <li className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
               <Link to="/" className="block px-4 py-2" onClick={toggleMenu}>トップページ</Link>
             </li>
