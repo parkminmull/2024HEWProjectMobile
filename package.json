@@ -8,14 +8,15 @@
         "build": "vite build",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
-
     },
     "dependencies": {
-        "@react-three/drei": "^9.97.3",
+        "@react-three/drei": "^9.99.0",
         "@react-three/fiber": "^8.15.16",
+        "fbx2gltf": "^0.9.7-p1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-router-dom": "^6.22.0"
+        "react-router-dom": "^6.22.0",
+        "three": "^0.161.0"
     },
     "devDependencies": {
         "@types/react": "^18.2.43",

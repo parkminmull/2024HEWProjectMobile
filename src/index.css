@@ -28,3 +28,12 @@
 .animate-fadeIn {
     animation: fadeIn 2s ease-out forwards;
 }
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
