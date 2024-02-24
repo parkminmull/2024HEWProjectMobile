@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { degToRad } from "three/src/math/MathUtils";
 import { extend } from '@react-three/fiber';
 import * as THREE from 'three';
-import { City } from "./City";
+import { City } from "./city";
 
 // DirectionalLight를 extend 함수를 사용하여 컴포넌트로 확장
 extend({ DirectionalLight: THREE.DirectionalLight });
