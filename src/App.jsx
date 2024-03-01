@@ -6,7 +6,8 @@ import MainPage from './pages/MainPage';
 import ProjectDescription from './pages/ProjectDescription';
 import RoomDisplay3D from './pages/RoomDisplay3D';
 import TeamIntroduction from './pages/TeamIntroduction';
-
+import Toriathukai from './pages/Toriathukai'
+import Yokyu from './pages/Yokyu';
 
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
         <Route path="/project-description" element={<ProjectDescription />} />
         <Route path="/room-display" element={<RoomDisplay3D />} />
         <Route path="/team-introduction" element={<TeamIntroduction />} />
-        
+        <Route path="/toriathukai" element={<Toriathukai />} />
+        <Route path="/yokyu" element={<Yokyu />} />
       </Routes>
       
     </Router>

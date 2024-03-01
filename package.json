@@ -10,11 +10,13 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@react-pdf/renderer": "^3.3.8",
         "@react-three/drei": "^9.99.0",
         "@react-three/fiber": "^8.15.16",
         "fbx2gltf": "^0.9.7-p1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-pdf": "^7.7.1",
         "react-router-dom": "^6.22.0",
         "three": "^0.161.0"
     },

@@ -56,10 +56,17 @@ const Header = () => {
             <li className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
               <Link to="/project-description" className="block px-4 py-2" onClick={toggleMenu}>作品説明</Link>
             </li>
+            
+            {/* 추가적인 메뉴 항목들 */}
+            <li className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
+              <Link to="/toriathukai" className="block px-4 py-2" onClick={toggleMenu}>取扱説明書</Link>
+            </li>
+            <li className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
+              <Link to="/yokyu" className="block px-4 py-2" onClick={toggleMenu}>要件定義書</Link>
+            </li>
             <li className="text-gray-600 hover:text-gray-800 transition-colors duration-300">
               <Link to="/team-introduction" className="block px-4 py-2" onClick={toggleMenu}>メンバー</Link>
             </li>
-            {/* 추가적인 메뉴 항목들 */}
           </ul>
         )}
       </nav>
