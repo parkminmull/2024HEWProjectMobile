@@ -1,12 +1,14 @@
-# React + Vite
+# 不動産物件ECサイトのプレゼンテーションサイト（モバイル用）
+作品説明、取扱説明、要件定義、メンバーの情報<br>
+![대지 1-100](https://github.com/parkminmull/kasaisystemproject/assets/114851426/f3207b60-cb53-481c-aae0-baaad7763b8f)<br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- React,R3Fを使ってウェブページに3Dモデルを実装<br>
+- 3Dモデルのカメラや光、アニメーションを実装<br>
+- 本プロジェクトの紹介サイトを作成し,Azureで配布<br>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# hewppt
-# hew_ppt_site
-# hew_ppt_site
-# hewsite
+
+### 🎯 成果
+- 2024/03/08	HAL東京　進級制作展　(ＨＡＬ　ＥＶＥＮＴ　ＷＥＥＫ)	最多得票賞
+- 2024/03/08	HAL東京　進級制作展　(ＨＡＬ　ＥＶＥＮＴ　ＷＥＥＫ)	金賞
+を受賞しました。
